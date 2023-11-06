@@ -1,11 +1,11 @@
-# @eclass/semantic-release-sentry-releases
+# @wizarrrr/semantic-release-sentry-releases
 
-[![npm](https://img.shields.io/npm/v/@eclass/semantic-release-sentry-releases.svg)](https://www.npmjs.com/package/@eclass/semantic-release-sentry-releases)
-![Node.js CI](https://github.com/eclass/semantic-release-sentry-releases/workflows/Node.js%20CI/badge.svg)
-[![downloads](https://img.shields.io/npm/dt/@eclass/semantic-release-sentry-releases.svg)](https://www.npmjs.com/package/@eclass/semantic-release-sentry-releases)
-![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@eclass/semantic-release-sentry-releases)
-[![Coverage Status](https://coveralls.io/repos/github/eclass/semantic-release-sentry-releases/badge.svg?branch=master)](https://coveralls.io/github/eclass/semantic-release-sentry-releases?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f84f0bcb39c9a5c5fb99/maintainability)](https://codeclimate.com/github/eclass/semantic-release-sentry-releases/maintainability)
+[![npm](https://img.shields.io/npm/v/@wizarrrr/semantic-release-sentry-releases.svg)](https://www.npmjs.com/package/@wizarrrr/semantic-release-sentry-releases)
+![Node.js CI](https://github.com/wizarrrr/semantic-release-sentry-releases/workflows/Node.js%20CI/badge.svg)
+[![downloads](https://img.shields.io/npm/dt/@wizarrrr/semantic-release-sentry-releases.svg)](https://www.npmjs.com/package/@wizarrrr/semantic-release-sentry-releases)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@wizarrrr/semantic-release-sentry-releases)
+[![Coverage Status](https://coveralls.io/repos/github/wizarrrr/semantic-release-sentry-releases/badge.svg?branch=master)](https://coveralls.io/github/wizarrrr/semantic-release-sentry-releases?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f84f0bcb39c9a5c5fb99/maintainability)](https://codeclimate.com/github/wizarrrr/semantic-release-sentry-releases/maintainability)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 > [semantic-release](https://github.com/semantic-release/semantic-release) plugin to create releases in [sentry](https://docs.sentry.io/workflow/releases/?platform=browsernpm#create-release)
@@ -18,7 +18,7 @@
 ## Install
 
 ```bash
-npm i -D @eclass/semantic-release-sentry-releases
+npm i -D @wizarrrr/semantic-release-sentry-releases
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
     "@semantic-release/npm",
     "@semantic-release/git",
     "@semantic-release/gitlab",
-    "@eclass/semantic-release-sentry-releases"
+    "@wizarrrr/semantic-release-sentry-releases"
   ]
 }
 ```
@@ -80,7 +80,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
     "@semantic-release/git",
     "@semantic-release/gitlab",
     [
-      "@eclass/semantic-release-sentry-releases",
+      "@wizarrrr/semantic-release-sentry-releases",
       {
         "repositoryUrl": "myorg / myapp",
         "tagsUrl": "https://github.com/owner/repo/releases/tag/"
@@ -106,7 +106,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
       }
     ],
     [
-      "@eclass/semantic-release-sentry-releases",
+      "@wizarrrr/semantic-release-sentry-releases",
       {
         "repositoryUrl": "myorg / myapp",
         "tagsUrl": "https://github.com/owner/repo/releases/tag/",

@@ -59,7 +59,7 @@ describe('Publish', () => {
     logger: { log: () => ({}), error: () => ({}) },
     options: {
       repositoryUrl:
-        'https://github.com/eclass/semantic-release-sentry-releases.git',
+        'https://github.com/wizarrrr/semantic-release-sentry-releases.git',
       branches: '',
       plugins: [],
       tagFormat: '',
@@ -79,8 +79,8 @@ describe('Publish', () => {
       .reply(200, [
         {
           id: '1',
-          name: 'eclass / semantic-release-sentry-releases',
-          url: 'github.com/eclass/semantic-release-sentry-releases',
+          name: 'wizarrrr / semantic-release-sentry-releases',
+          url: 'github.com/wizarrrr/semantic-release-sentry-releases',
           provider: {
             id: 'integrations:github',
             name: 'Github',
